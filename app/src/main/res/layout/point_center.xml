@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="317dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="193dp"
+        android:layout_marginTop="796dp"
+        android:layout_marginEnd="198dp"
+        android:autoText="true"
+        android:text="Reedem Shop"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="222dp"
+        android:layout_height="40dp"
+        android:text="Jumlah point"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="317dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="193dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="198dp"
+        android:autoText="true"
+        android:text="Point"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="317dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="193dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="198dp"
+        android:autoText="true"
+        android:text="7 Day Streak"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="317dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="193dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="198dp"
+        android:autoText="true"
+        android:text="Misi Harian"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="54dp"
+        android:layout_height="60dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="921dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="53dp"
+        android:layout_height="54dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/track"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="927dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="68dp"
+        android:layout_height="57dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/pulse"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="927dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/wallet"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="933dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton25"
+        android:layout_width="64dp"
+        android:layout_height="57dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/leaderboard"
+        tools:layout_editor_absoluteX="368dp"
+        tools:layout_editor_absoluteY="927dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="162dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/point"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

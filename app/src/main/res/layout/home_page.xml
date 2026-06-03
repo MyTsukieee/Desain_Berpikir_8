@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="106dp"
+        android:layout_height="51dp"
+        android:text="Waktu"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi, Nama!"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Langkah harian"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="37dp"
+        android:layout_height="43dp"
+        app:srcCompat="@drawable/foot2"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Progress"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="138dp"
+        android:layout_height="112dp"
+        app:srcCompat="@drawable/pporg"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="84dp"
+        android:layout_height="88dp"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="89dp"
+        android:layout_height="44dp"
+        android:text="Kalori"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="53dp"
+        android:layout_height="76dp"
+        app:srcCompat="@drawable/fire"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="390dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="55dp"
+        android:layout_height="53dp"
+        app:srcCompat="@drawable/clock"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="405dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="54dp"
+        android:layout_height="60dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="921dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="53dp"
+        android:layout_height="54dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/track"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="927dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="60dp"
+        android:layout_height="48dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/wallet"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="933dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="68dp"
+        android:layout_height="57dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/pulse"
+        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteY="927dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="64dp"
+        android:layout_height="57dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/leaderboard"
+        tools:layout_editor_absoluteX="368dp"
+        tools:layout_editor_absoluteY="927dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
